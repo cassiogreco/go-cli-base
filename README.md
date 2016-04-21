@@ -3,17 +3,17 @@ A simple Go cli which you can use as a base for creating your own. Decoupled fro
 
 ## Running
 
-Set your `$GOPATH` to the root of the *go-cli-base* directory (if your directory is under `~` then you should set it as `~/go-cli-base/`) by running `export GOPATH=~/go-cli-base/`
+Set your `$GOPATH` to the root of the **go-cli-base** directory (if your directory is under `~` then you should set it as `~/go-cli-base/`) by running `export GOPATH=~/go-cli-base/`
 
-Set your `$GOBIN` to the `bin/` directory under *go-cli-base* by running `export GOBIN=$GOPATH/bin`
+Set your `$GOBIN` to the `bin/` directory under **go-cli-base** by running `export GOBIN=$GOPATH/bin`
 
-Install the cli by running `go install main/main.go`. You should now have an executable called *main* in your `go-cli-base/bin` directory.
+Install the cli by running `go install main/main.go`. You should now have an executable called **main** in your `go-cli-base/bin` directory.
 
 Now, simply run `main -h` from the `go-cli-base/bin` directory.
 
 ## Setup
 
-Built with *Go* version *1.5.3*, so I recommend using this or a newer version of Go
+Built with **Go** version **1.5.3**, so I recommend using this or a newer version of Go
 
 ## Testing
 
